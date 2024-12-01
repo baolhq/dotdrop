@@ -12,12 +12,11 @@
   ],
   "modules-right": [
     "mpd",
-    "pulseaudio",
-    "network",
-    "battery",
     "backlight",
+    "pulseaudio",
+    "battery",
+    "network",
     "clock",
-    "tray",
     "custom/power"
   ],
   "hyprland/workspaces": {
