@@ -47,6 +47,9 @@ dotfiles:
   d_dunst:
     src: config/dunst
     dst: ~/.config/dunst
+  d_ranger:
+    src: config/ranger
+    dst: ~/.config/ranger
 profiles:
   archlinux:
     dotfiles:
@@ -63,3 +66,4 @@ profiles:
     - f_zshrc
     - f_vimrc
     - d_dunst
+    - d_ranger
