@@ -44,6 +44,9 @@ dotfiles:
   f_vimrc:
     src: vimrc
     dst: ~/.vimrc
+  d_dunst:
+    src: config/dunst
+    dst: ~/.config/dunst
 profiles:
   archlinux:
     dotfiles:
@@ -59,3 +62,4 @@ profiles:
     - d_waybar
     - f_zshrc
     - f_vimrc
+    - d_dunst
