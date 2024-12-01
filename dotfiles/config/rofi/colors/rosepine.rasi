@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : Quoc Bao (baolhq)
+ * Github : @baolhq
+ * 
+ * Rose Pine Colorscheme
+ **/
+
+* {
+    background:     #1F1D2EFF;
+    background-alt: #2A273FFF;
+    foreground:     #E0DEF4FF;
+    selected:       #C4A7E7FF;
+    active:         #E0DEF4FF;
+    urgent:         #EB6F92FF;
+}

@@ -19,18 +19,18 @@ window#waybar {
   color: @text;
 }
 
-window#waybar.hidden {
-  opacity: 0.2;
-}
-
 button {
   background: none;
   border: none;
   border-radius: 0;
 }
 
+#workspaces {
+  margin-left: 4px;
+}
+
 #workspaces button {
-  padding: 0 5px;
+  padding: 2px 5px 0 5px;
   color: @text;
 }
 
@@ -49,11 +49,11 @@ button {
 }
 
 .modules-left {
-  margin-left: 4;
+  margin-left: 12px;
 }
 
 .modules-right {
-  margin-right: 4;
+  margin-right: 4px;
 }
 
 .modules-right * {
