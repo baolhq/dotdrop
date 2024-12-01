@@ -1,0 +1,61 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+dotfiles:
+  d_hypr:
+    src: config/hypr
+    dst: ~/.config/hypr
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+  d_kitty:
+    src: config/kitty
+    dst: ~/.config/kitty
+  d_bpytop:
+    src: config/bpytop
+    dst: ~/.config/bpytop
+  d_cava:
+    src: config/cava
+    dst: ~/.config/cava
+  d_lvim:
+    src: config/lvim
+    dst: ~/.config/lvim
+  d_neofetch:
+    src: config/neofetch
+    dst: ~/.config/neofetch
+  d_peaclock:
+    src: config/peaclock
+    dst: ~/.config/peaclock
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
+  d_waybar:
+    src: config/waybar
+    dst: ~/.config/waybar
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  f_vimrc:
+    src: vimrc
+    dst: ~/.vimrc
+profiles:
+  archlinux:
+    dotfiles:
+    - d_hypr
+    - d_nvim
+    - d_kitty
+    - d_bpytop
+    - d_cava
+    - d_lvim
+    - d_neofetch
+    - d_peaclock
+    - d_rofi
+    - d_waybar
+    - f_zshrc
+    - f_vimrc

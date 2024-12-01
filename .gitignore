@@ -1,0 +1,31 @@
+# python stuff
+*.pyc
+__pycache__
+dist/
+build/
+*.egg-info/
+tags
+env
+venv
+.pytest_cache
+.mypy_cache
+
+# coverage stuff
+.coverage
+.coverage*
+htmlcov
+coverages/
+coverage.xml
+
+# IDE
+.idea/
+.vscode/
+.atom/
+
+# Snap packages
+parts/
+prime/
+stage/
+*.snap
+/packages/snap/.snapcraft/
+/packages/*_source.tar.bz2

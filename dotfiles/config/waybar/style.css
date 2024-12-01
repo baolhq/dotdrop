@@ -1,0 +1,97 @@
+@define-color   base    #191724;
+@define-color   hl_low  #21202e;
+@define-color   text    #e0def4;
+@define-color   red     #eb6f92;
+@define-color   green   #31748f;
+@define-color   blue    #9ccfd8;
+@define-color   yello   #f6c177;
+
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+window#waybar {
+  background: @base;
+  border: 2px solid @hl_low;
+  border-radius: 8px;
+  color: @text;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  color: @text;
+}
+
+#workspaces button:hover {
+  color: @blue;
+  box-shadow: none;
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+  color: @blue;
+}
+
+#workspaces button.urgent {
+  color: @red;
+}
+
+.modules-left {
+  margin-left: 4;
+}
+
+.modules-right {
+  margin-right: 4;
+}
+
+.modules-right * {
+  padding: 0 8px;
+  color: @text;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: @green;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#network.disconnected {
+  color: @red;
+}
+
+#pulseaudio.muted {
+  color: @red;
+}
+
+#custom-power:hover {
+  color: @red;
+}
+
