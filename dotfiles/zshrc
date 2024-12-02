@@ -65,11 +65,10 @@ ZSH_THEME="half-life"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
+###################
+#     Plugins     #
+###################
+
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
@@ -91,13 +90,10 @@ fi
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
-# Set personal aliases, overriding those provided by Oh My Zsh libs,
-# plugins, and themes. Aliases can be placed here, though Oh My Zsh
-# users are encouraged to define aliases within a top-level file in
-# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
-# - $ZSH_CUSTOM/aliases.zsh
-# - $ZSH_CUSTOM/macos.zsh
-# For a full list of active aliases, run `alias`.
+###################
+#     Aliases     #
+###################
+
 alias nv="nvim"
 alias lv="lvim"
 alias ls="ls -l --color=auto"
@@ -108,10 +104,22 @@ alias pc="peaclock --config-dir ~/.config/peaclock"
 alias cv="cava"
 alias dotdrop="~/git/dotdrop/dotdrop.sh"
 
+# Pacman 
 alias pasi="sudo pacman -S"
 alias pasu="sudo pacman -Syyu"
 alias parm="sudo pacman -R"
-alias pacl="sudo pacman -Rns $(pacman -Qdtq)"
+function pacl() {
+  sudo pacman -Rns $(pacman -Qdtq)
+}
+
+# Python
+alias venv="source ./venv/bin/activate"
+alias denv="deactivate"
+
+
+###################
+#    Autostart   #
+###################
 
 # Print random color script: https://gitlab.com/dwt1/shell-color-scripts
 colorscript random
