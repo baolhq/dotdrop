@@ -1,17 +1,30 @@
-# https://github.com/rose-pine/rose-pine-theme
-# Soho vibes for Zathura: Rosé Pine
-#
-# Usage:
-# Copy contents of this file to ~/.config/zathura/zathurarc
-#
-# Change 'recolor' and 'recolor-keephue' to true to change
-# the document colors for a more uniform viewing experience.
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
 
+# One page per row by default
+set pages-per-row 1
+
+#stop at page boundries
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+#zoom settings
+set zoom-min 10
+set guioptions ""
+
+set font "Noto Sans Mono 12"
+
+set render-loading "false"
+set scroll-step 50
+
+# Rose Pine colorscheme
 set default-bg                  "#191724"
 set default-fg                  "#e0def4"
 
 set statusbar-fg                "#e0def4"
-set statusbar-bg                "#555169"
+set statusbar-bg                "#21202e"
 
 set inputbar-bg                 "#6e6a86"
 set inputbar-fg                 "#ebbcba"

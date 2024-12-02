@@ -94,9 +94,11 @@ fi
 #     Aliases     #
 ###################
 
+alias ls='ls -l --color -h --group-directories-first'
+alias la='ls -la --color -h --group-directories-first'
+
 alias nv="nvim"
 alias lv="lvim"
-alias ls="ls -l --color=auto"
 alias aqua="asciiquarium"
 alias top="bpytop"
 alias pp="pipes.sh"
