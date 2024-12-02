@@ -50,6 +50,9 @@ dotfiles:
   d_ranger:
     src: config/ranger
     dst: ~/.config/ranger
+  d_zathura:
+    src: config/zathura
+    dst: ~/.config/zathura
 profiles:
   archlinux:
     dotfiles:
@@ -67,3 +70,4 @@ profiles:
     - f_vimrc
     - d_dunst
     - d_ranger
+    - d_zathura
