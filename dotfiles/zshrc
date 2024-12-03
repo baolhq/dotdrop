@@ -1,19 +1,13 @@
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
+#########################
+#       Oh-My-Zsh       #
+#########################
 
-# Path to your Oh My Zsh installation.
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time Oh My Zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="half-life"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
+# Oh-My-Zsh random themes
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
@@ -65,20 +59,20 @@ ZSH_THEME="half-life"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-###################
-#     Plugins     #
-###################
+#########################
+#        Plugins        #
+#########################
 
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+#########################
+#  User configurations  #
+#########################
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export MANPATH="/usr/local/man:$MANPATH"
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -87,24 +81,30 @@ else
   export EDITOR='nvim'
 fi
 
-# Compilation flags
-# export ARCHFLAGS="-arch $(uname -m)"
+#########################
+#        Aliases        #
+#########################
 
-###################
-#     Aliases     #
-###################
-
+# Sort directories first
 alias ls='ls -l --color -h --group-directories-first'
 alias la='ls -la --color -h --group-directories-first'
 
+# Programs
 alias nv="nvim"
 alias lv="lvim"
-alias aqua="asciiquarium"
+alias nf="neofetch"
+alias aqa="asciiquarium"
 alias top="bpytop"
-alias pp="pipes.sh"
-alias pc="peaclock --config-dir ~/.config/peaclock"
-alias cv="cava"
-alias dotdrop="~/git/dotdrop/dotdrop.sh"
+alias pps="pipes.sh"
+alias pcl="peaclock --config-dir ~/.config/peaclock"
+alias ddr="~/git/dotdrop/dotdrop.sh"
+
+# Git
+alias gad="git add ."
+alias gcm="git commit -m"
+alias gpm="git push origin main"
+alias gpd="git push origin dev"
+alias gop="git-open"
 
 # Pacman 
 alias pasi="sudo pacman -S"
@@ -116,12 +116,13 @@ function pacl() {
 
 # Python
 alias venv="source ./venv/bin/activate"
+alias veis="pip install -r requirements.txt"
 alias denv="deactivate"
 
 
-###################
-#    Autostart   #
-###################
+#########################
+#       Autostart       #
+#########################
 
 # Print random color script: https://gitlab.com/dwt1/shell-color-scripts
 colorscript random
