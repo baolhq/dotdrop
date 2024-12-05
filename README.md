@@ -1,10 +1,12 @@
 # Arch + Hyprland
 
 > My dotfiles for `hyprland` on `arch` with the beautiful `Rose Pine` color scheme
+
 > Scroll down for list of packages that I assume you have installed on your system
 
 ### Essentials
 
+```
 git
 yay
 
@@ -28,30 +30,39 @@ go
 rust
 ruby
 python-pip
+```
 
 ### Online packages
 
+```
 Oh-My-Zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
+```
 
-> Install in correct order
+**Install in correct order**
 
+```
 nerd-fonts
 python-pynvim
 npm/neovim
 lunarvim
+```
 
 ### Optionals
 
+```
 asciiquarium
 bpytop
 neofetch
+```
 
 ##### Yay
 
+```
 cava
 peaclock
 pipes.sh
 shell-color-scripts
+```
 
