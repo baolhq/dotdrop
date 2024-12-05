@@ -1,16 +1,16 @@
 /**
  *
- * Author : Levi Lacoss (fishyfishfish55)
- * Github : @fishyfishfish55
- *
- * Colors
+ * Author : Quoc Bao (baolhq)
+ * Github : @baolhq
+ * 
+ * Rose Pine Colorscheme
  **/
 
 * {
-    background:     #15161EFF;
-    background-alt: #1A1B26FF;
-    foreground:     #C0CAF5FF;
-    selected:       #33467CFF;
-    active:         #414868FF;
-    urgent:         #F7768EFF;
+    background:     #1F1D2EFF;
+    background-alt: #2A273FFF;
+    foreground:     #E0DEF4FF;
+    selected:       #C4A7E7FF;
+    active:         #E0DEF4FF;
+    urgent:         #EB6F92FF;
 }

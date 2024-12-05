@@ -109,6 +109,7 @@ alias gop="git-open"
 # Pacman 
 alias pasi="sudo pacman -S"
 alias pasu="sudo pacman -Syyu"
+alias pase="pacman -Ss"
 alias parm="sudo pacman -R"
 function pacl() {
   sudo pacman -Rns $(pacman -Qdtq)

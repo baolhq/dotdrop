@@ -53,6 +53,9 @@ dotfiles:
   d_zathura:
     src: config/zathura
     dst: ~/.config/zathura
+  d_betterdiscord:
+    src: config/BetterDiscord
+    dst: ~/.config/BetterDiscord
 profiles:
   archlinux:
     dotfiles:
@@ -71,3 +74,4 @@ profiles:
     - d_dunst
     - d_ranger
     - d_zathura
+    - d_betterdiscord
