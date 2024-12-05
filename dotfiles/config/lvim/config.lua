@@ -58,7 +58,9 @@ dap.configurations.rust = {
     type = "codelldb",
     request = "launch",
     program = function()
-      return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/target/debug/', 'file')
+      local current_dir = vim.fn.getcwd()
+      local dir_name = current_dir:match("[^/]+$") -- Extracts the directory name after the final '/'
+      return current_dir .. "/target/debug/" .. dir_name
     end,
     cwd = '${workspaceFolder}',
     stopOnEntry = false,
