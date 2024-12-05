@@ -104,7 +104,7 @@ alias gad="git add ."
 alias gcm="git commit -m"
 alias gpm="git push origin main"
 alias gpd="git push origin dev"
-alias gop="git-open"
+alias gop="~/dev/sh/gh-open.sh"
 
 # Pacman 
 alias pasi="sudo pacman -S"

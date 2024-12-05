@@ -56,6 +56,10 @@ dotfiles:
   d_betterdiscord:
     src: config/BetterDiscord
     dst: ~/.config/BetterDiscord
+  f_gh-open.sh:
+    src: dev/sh/gh-open.sh
+    dst: ~/dev/sh/gh-open.sh
+    chmod: '755'
 profiles:
   archlinux:
     dotfiles:
@@ -75,3 +79,4 @@ profiles:
     - d_ranger
     - d_zathura
     - d_betterdiscord
+    - f_gh-open.sh
