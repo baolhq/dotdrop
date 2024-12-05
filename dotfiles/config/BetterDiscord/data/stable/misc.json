@@ -1,3 +1,12 @@
 {
-    "version": "1.10.2"
+    "version": "1.10.2",
+    "drawerStates": {
+        "settings": {
+            "editor": true,
+            "window": true,
+            "developer": false,
+            "addons": false,
+            "customcss": false
+        }
+    }
 }

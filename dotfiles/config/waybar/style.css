@@ -87,6 +87,10 @@ button {
   color: @red;
 }
 
+#pulseaudio {
+  margin-right: -6px;
+}
+
 #pulseaudio.muted {
   color: @red;
 }
