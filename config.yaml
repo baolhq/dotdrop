@@ -60,6 +60,9 @@ dotfiles:
     src: dev/sh/gh-open.sh
     dst: ~/dev/sh/gh-open.sh
     chmod: '755'
+  d_com.github.johnfactotum.foliate:
+    src: config/com.github.johnfactotum.Foliate
+    dst: ~/.config/com.github.johnfactotum.Foliate
 profiles:
   archlinux:
     dotfiles:
@@ -80,3 +83,4 @@ profiles:
     - d_zathura
     - d_betterdiscord
     - f_gh-open.sh
+    - d_com.github.johnfactotum.foliate
