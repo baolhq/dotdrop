@@ -50,9 +50,6 @@ dotfiles:
   d_ranger:
     src: config/ranger
     dst: ~/.config/ranger
-  d_zathura:
-    src: config/zathura
-    dst: ~/.config/zathura
   d_betterdiscord:
     src: config/BetterDiscord
     dst: ~/.config/BetterDiscord
@@ -80,7 +77,6 @@ profiles:
     - f_vimrc
     - d_dunst
     - d_ranger
-    - d_zathura
     - d_betterdiscord
     - f_gh-open.sh
     - d_com.github.johnfactotum.foliate
