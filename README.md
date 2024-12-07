@@ -61,5 +61,6 @@ cava
 peaclock
 pipes.sh
 shell-color-scripts `https://gitlab.com/dwt1/shell-color-scripts`
+rose-pine-cursor
 ```
 

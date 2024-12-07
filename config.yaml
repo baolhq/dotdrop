@@ -60,6 +60,32 @@ dotfiles:
   d_com.github.johnfactotum.foliate:
     src: config/com.github.johnfactotum.Foliate
     dst: ~/.config/com.github.johnfactotum.Foliate
+  d_gtk-3.0:
+    src: config/gtk-3.0
+    dst: ~/.config/gtk-3.0
+    chmod: '700'
+  d_gtk-4.0:
+    src: config/gtk-4.0
+    dst: ~/.config/gtk-4.0
+    chmod: '700'
+  d_rose-pine-dark:
+    src: themes/Rose-Pine-Dark
+    dst: ~/.themes/Rose-Pine-Dark
+  d_rose-pine-dark-hdpi:
+    src: themes/Rose-Pine-Dark-hdpi
+    dst: ~/.themes/Rose-Pine-Dark-hdpi
+  d_rose-pine-dark-xhdpi:
+    src: themes/Rose-Pine-Dark-xhdpi
+    dst: ~/.themes/Rose-Pine-Dark-xhdpi
+  d_rose-pine-light:
+    src: themes/Rose-Pine-Light
+    dst: ~/.themes/Rose-Pine-Light
+  d_rose-pine-light-hdpi:
+    src: themes/Rose-Pine-Light-hdpi
+    dst: ~/.themes/Rose-Pine-Light-hdpi
+  d_rose-pine-light-xhdpi:
+    src: themes/Rose-Pine-Light-xhdpi
+    dst: ~/.themes/Rose-Pine-Light-xhdpi
 profiles:
   archlinux:
     dotfiles:
@@ -80,3 +106,11 @@ profiles:
     - d_betterdiscord
     - f_gh-open.sh
     - d_com.github.johnfactotum.foliate
+    - d_gtk-3.0
+    - d_gtk-4.0
+    - d_rose-pine-dark
+    - d_rose-pine-dark-hdpi
+    - d_rose-pine-dark-xhdpi
+    - d_rose-pine-light
+    - d_rose-pine-light-hdpi
+    - d_rose-pine-light-xhdpi

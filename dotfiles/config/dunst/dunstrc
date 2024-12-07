@@ -6,25 +6,24 @@
     progress_bar_max_width = 380
     progress_bar_corner_radius = 2
 
-    padding = 8
-    horizontal_padding = 10
+    padding = 4
     frame_width = 1
     gap_size = 3
-    font = "Font Awesome 14"
+    font = "RobotoMono Nerd Font 10"
 
     icon_theme = "rose-pine-icons"
     enable_recursive_icon_lookup = true
     corner_radius = 4
 
-    background = "#191724"
+    background = "#26233a"
     foreground = "#e0def4"
 
 [urgency_low]
-    background = "#191724"
-    highlight = "#31748f"
-    frame_color = "#31748f"
+    background = "#1f1d2e"
+    highlight = "#403d52"
+    frame_color = "#403d52"
     default_icon = "dialog-information"
-    format = "<b><span foreground='#31748f'>%s</span></b>\n%b"
+    format = "<b><span foreground='#908caa'>%s</span></b>\n%b"
 
 [urgency_normal]
     background = "#362e3c"
