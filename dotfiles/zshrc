@@ -93,6 +93,7 @@ alias la='ls -la --color -h --group-directories-first'
 alias nv="nvim"
 alias lv="lvim"
 alias nf="neofetch"
+alias vl="alsamixer"
 alias aqa="asciiquarium"
 alias top="bpytop"
 alias pps="pipes.sh"
