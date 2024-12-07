@@ -2,16 +2,16 @@
 
 > My dotfiles for `hyprland` on `arch` with the beautiful `Rose Pine` color scheme
 
-> Scroll down for list of packages that I assume you have installed on your system
+Scroll down for list of packages that I assume you have installed on your system
 
 ### Essentials
 
-```
+```sh
 git
-yay
+yay `https://github.com/Jguer/yay`
 
-inotify-utils _Reset waybar on config changes_
-inetutils _Get hostname_
+inotify-tools # Reset waybar on config files changes
+inetutils # Get hostname
 
 kitty
 zsh
@@ -23,46 +23,43 @@ hyprpaper
 waybar
 rofi-wayland
 ranger
-pavucontrol _Volume control module for waybar_
+alsautils # Volume control
 
-node
-go
-rust
-ruby
-python-pip
+grim
+slurp
+satty
 ```
 
 ### Online packages
 
-```
-Oh-My-Zsh
-zsh-syntax-highlighting
-zsh-autosuggestions
+```sh
+Oh-My-Zsh `https://ohmyz.sh/#install`
+zsh-autosuggestions `https://github.com/zsh-users/zsh-autosuggestions`
+zsh-syntax-highlighting `https://github.com/zsh-users/zsh-syntax-highlighting`
 ```
 
 **Install in correct order**
 
-```
-nerd-fonts
-python-pynvim
-npm/neovim
-lunarvim
+```sh
+nerd-fonts - Hack `https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-9-clone-the-repo`
+python-pynvim # Because lunarvim cannot install pynvim dependency globally
+lunarvim `https://www.lunarvim.org/docs/installation#release`
 ```
 
 ### Optionals
 
-```
+```sh
 asciiquarium
 bpytop
 neofetch
 ```
 
-##### Yay
+##### AUR
 
-```
+```sh
 cava
 peaclock
 pipes.sh
-shell-color-scripts
+shell-color-scripts `https://gitlab.com/dwt1/shell-color-scripts`
 ```
 
