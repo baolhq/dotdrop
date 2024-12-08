@@ -85,7 +85,7 @@
         ""
       ]
     },
-    "on-click": "kitty alsamixer"
+    "on-click": "kitty pulsemixer"
   },
   "image": {
     "path": "/home/baolhq/Pictures/arch.png",
