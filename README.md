@@ -23,7 +23,7 @@ hyprpaper
 waybar
 rofi-wayland
 ranger
-alsautils # Volume control
+pulsemixer # Volume control
 
 grim
 slurp
@@ -52,6 +52,7 @@ lunarvim `https://www.lunarvim.org/docs/installation#release`
 asciiquarium
 bpytop
 neofetch
+macchina
 ```
 
 ##### AUR

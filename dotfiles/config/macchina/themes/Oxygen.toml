@@ -1,0 +1,32 @@
+# Oxygen
+
+spacing         = 3
+hide_ascii      = true
+key_color       = "#ebbcba"
+separator       = ""
+
+[box]
+title           = "   System information "
+border          = "rounded"
+visible         = true
+
+[palette]
+glyph           = "●"
+spacing         = 2
+visible         = true
+
+[bar]
+glyph           = "●"
+hide_delimiters = true
+visible         = true
+
+[box.inner_margin]
+x               = 1
+y               = 1
+
+[custom_ascii]
+color           = "#9ccfd8"
+path            = "~/.config/macchina/ascii/arch.txt"
+
+[keys]
+host = "Host"
