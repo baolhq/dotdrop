@@ -75,11 +75,11 @@ export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='lvim'
-fi
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='lvim'
+# fi
 
 #########################
 #        Aliases        #
@@ -92,6 +92,7 @@ alias la='ls -la --color -h --group-directories-first'
 # Programs
 alias nv="nvim"
 alias lv="lvim"
+alias sv="sudo vim"
 alias nf="neofetch"
 alias vl="alsamixer"
 alias aqa="asciiquarium"
@@ -99,6 +100,10 @@ alias top="bpytop"
 alias pps="pipes.sh"
 alias pcl="peaclock --config-dir ~/.config/peaclock"
 alias ddr="~/git/dotdrop/dotdrop.sh"
+
+# Trash to avoid accidentally remove dirs
+alias rm="rmtrash"
+alias rmdir="rmdirtrash"
 
 # Git
 alias gad="git add ."
