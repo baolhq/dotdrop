@@ -89,6 +89,9 @@ dotfiles:
   d_macchina:
     src: config/macchina
     dst: ~/.config/macchina
+  f_arch.png:
+    src: Pictures/arch.png
+    dst: ~/Pictures/arch.png
 profiles:
   archlinux:
     dotfiles:
@@ -118,3 +121,4 @@ profiles:
     - d_rose-pine-light-hdpi
     - d_rose-pine-light-xhdpi
     - d_macchina
+    - f_arch.png
