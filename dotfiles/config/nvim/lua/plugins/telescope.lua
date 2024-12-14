@@ -59,7 +59,7 @@ return { -- Fuzzy finder (files, lsp, etc)
 			vim.keymap.set("n", "<leader>sf", builtin.find_files, { desc = "Files" })
 			vim.keymap.set("n", "<leader>sr", builtin.resume, { desc = "Recent" })
 			vim.keymap.set("n", "<leader>sg", builtin.live_grep, { desc = "Live grep" })
-			vim.keymap.set("n", "<leader>st", builtin.live_grep, { desc = "Treesitter" })
+			vim.keymap.set("n", "<leader>sj", builtin.buffers, { desc = "Jump to" })
 			vim.keymap.set("n", "<leader>sd", builtin.diagnostics, { desc = "Diagnostics" })
 			vim.keymap.set("n", "<leader>sb", builtin.current_buffer_fuzzy_find, { desc = "Current buffer" })
 		end,

@@ -21,8 +21,8 @@ map("<leader>w", "<cmd>w<CR>", "Write buffer")
 map("<leader>q", "<cmd>q<CR>", "Quit")
 
 -- Split window
-map("sh", "<cmd>split<CR>", "Split horizontally")
-map("ss", "<cmd>vsplit<CR> ", "Split vertically")
+map("<leader>sh", "<cmd>split<CR>", "Split horizontally")
+map("<leader>ss", "<cmd>vsplit<CR> ", "Split vertically")
 
 -- Keybinds to make split navigation easier.
 map("<C-h>", "<C-w><C-h>", "Focus left window")

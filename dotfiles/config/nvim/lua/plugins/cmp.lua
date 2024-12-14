@@ -6,6 +6,7 @@ return {
 			-- Snippet Engine & its associated nvim-cmp source
 			{
 				"L3MON4D3/LuaSnip",
+				event = "InsertEnter",
 				build = (function()
 					-- Build Step is needed for regex support in snippets.
 					-- This step is not supported in many windows environments.
@@ -27,13 +28,18 @@ return {
 					-- },
 				},
 			},
-			"saadparwaiz1/cmp_luasnip",
-
-			-- Adds other completion capabilities.
-			--  nvim-cmp does not ship with all sources by default. They are split
-			--  into multiple repos for maintenance purposes.
-			"hrsh7th/cmp-nvim-lsp",
-			"hrsh7th/cmp-path",
+			{
+				"saadparwaiz1/cmp_luasnip",
+				event = "InsertEnter",
+			},
+			{
+				"hrsh7th/cmp-nvim-lsp",
+				event = "InsertEnter",
+			},
+			{
+				"hrsh7th/cmp-path",
+				event = "InsertEnter",
+			},
 		},
 		config = function()
 			-- See `:help cmp`

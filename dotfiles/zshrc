@@ -75,11 +75,11 @@ export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='lvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
 
 #########################
 #        Aliases        #
@@ -109,7 +109,6 @@ alias gop="~/dev/sh/gh-open.sh"
 # Programs
 alias nv="nvim"
 alias sv="sudo vim"
-alias nf="neofetch"
 alias mc="macchina"
 alias aqa="asciiquarium"
 alias top="bpytop"
