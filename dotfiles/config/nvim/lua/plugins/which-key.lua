@@ -14,6 +14,7 @@ return { -- Useful plugin to show you pending keybinds.
 				{ "<leader>b", group = "Buffer" },
 				{ "<leader>d", group = "Debug" },
 				{ "<leader>s", group = "Search" },
+				{ "<leader>m", group = "Markview" },
 				{ "<leader>l", group = "LSP" },
 				{ "<leader>L", group = "Lazy" },
 				{ "<leader>r", group = "Rust" },
