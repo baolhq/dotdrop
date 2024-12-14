@@ -23,12 +23,6 @@ dotfiles:
   d_cava:
     src: config/cava
     dst: ~/.config/cava
-  d_lvim:
-    src: config/lvim
-    dst: ~/.config/lvim
-  d_neofetch:
-    src: config/neofetch
-    dst: ~/.config/neofetch
   d_peaclock:
     src: config/peaclock
     dst: ~/.config/peaclock
@@ -57,9 +51,6 @@ dotfiles:
     src: dev/sh/gh-open.sh
     dst: ~/dev/sh/gh-open.sh
     chmod: '755'
-  d_com.github.johnfactotum.foliate:
-    src: config/com.github.johnfactotum.Foliate
-    dst: ~/.config/com.github.johnfactotum.Foliate
   d_gtk-3.0:
     src: config/gtk-3.0
     dst: ~/.config/gtk-3.0
@@ -89,9 +80,6 @@ dotfiles:
   d_macchina:
     src: config/macchina
     dst: ~/.config/macchina
-  f_arch.png:
-    src: Pictures/arch.png
-    dst: ~/Pictures/arch.png
 profiles:
   archlinux:
     dotfiles:
@@ -100,8 +88,6 @@ profiles:
     - d_kitty
     - d_bpytop
     - d_cava
-    - d_lvim
-    - d_neofetch
     - d_peaclock
     - d_rofi
     - d_waybar
@@ -111,7 +97,6 @@ profiles:
     - d_ranger
     - d_betterdiscord
     - f_gh-open.sh
-    - d_com.github.johnfactotum.foliate
     - d_gtk-3.0
     - d_gtk-4.0
     - d_rose-pine-dark
@@ -121,4 +106,3 @@ profiles:
     - d_rose-pine-light-hdpi
     - d_rose-pine-light-xhdpi
     - d_macchina
-    - f_arch.png

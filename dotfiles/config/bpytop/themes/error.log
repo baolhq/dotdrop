@@ -1,0 +1,66 @@
+01/12/24 (12:18:33) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+01/12/24 (12:18:34) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+01/12/24 (12:18:42) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+01/12/24 (12:18:48) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+01/12/24 (12:18:53) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+01/12/24 (12:18:58) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+01/12/24 (12:19:04) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+01/12/24 (12:19:10) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+01/12/24 (12:19:18) | ERROR: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1357, in refresh
+    for f in os.listdir(d):
+             ^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/baolhq/.config/bpytop/themes'
+08/12/24 (16:14:39) | ERROR: Data collection thread failed with exception: Sign not allowed in string format specifier
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 2959, in _runner
+    collector._draw()
+  File "/usr/bin/bpytop", line 3991, in _draw
+    ProcBox._draw_fg()
+  File "/usr/bin/bpytop", line 2739, in _draw_fg
+    label = (f'{THEME.title}{Fx.b}{Mv.to(y, x)}{"Pid:":>7} {"Program:" if prog_len > 8 else "Prg:":<{prog_len}}' + (f'{"Arguments:":<{arg_len-4}}' if arg_len else "") +
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Sign not allowed in string format specifier
+08/12/24 (16:14:39) | WARNING: Exiting with errorcode (1). Runtime 0:00:00 
+

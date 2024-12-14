@@ -89,30 +89,6 @@ export LANG=en_US.UTF-8
 alias ls='ls -l --color -h --group-directories-first'
 alias la='ls -la --color -h --group-directories-first'
 
-# Programs
-alias nv="nvim"
-alias lv="lvim"
-alias sv="sudo vim"
-alias nf="neofetch"
-alias mc="macchina"
-alias vl="pulsemixer"
-alias aqa="asciiquarium"
-alias top="bpytop"
-alias pps="pipes.sh"
-alias pcl="peaclock --config-dir ~/.config/peaclock"
-alias ddr="~/git/dotdrop/dotdrop.sh"
-
-# Trash to avoid accidentally remove dirs
-alias rm="rmtrash"
-alias rmdir="rmdirtrash"
-
-# Git
-alias gad="git add ."
-alias gcm="git commit -m"
-alias gpm="git push origin main"
-alias gpd="git push origin dev"
-alias gop="~/dev/sh/gh-open.sh"
-
 # Pacman 
 alias pasi="sudo pacman -S"
 alias pasu="sudo pacman -Syyu"
@@ -123,14 +99,21 @@ function pacl() {
 }
 
 # Python
-alias venv="source ./venv/bin/activate"
-alias veis="pip install -r requirements.txt"
+alias venv="source venv/bin/activate"
+alias vesi="pip install -r requirements.txt"
 alias denv="deactivate"
 
+# Scripts
+alias gop="~/dev/sh/gh-open.sh"
 
-#########################
-#       Autostart       #
-#########################
+# Programs
+alias nv="nvim"
+alias sv="sudo vim"
+alias nf="neofetch"
+alias mc="macchina"
+alias aqa="asciiquarium"
+alias top="bpytop"
+alias pps="pipes.sh"
+alias pcl="peaclock --config-dir ~/.config/peaclock"
+alias ddr="~/git/dotdrop/dotdrop.sh"
 
-# Print random color script: https://gitlab.com/dwt1/shell-color-scripts
-colorscript random
